@@ -1,0 +1,79 @@
+/* Estilo geral do formulário */
+.root {
+    -fx-background-color: #F4F4F4; /* Cor de fundo da tela */
+    -fx-padding: 40; /* Espaçamento geral */
+    -fx-alignment: center; /* Centraliza o conteúdo */
+}
+
+
+/* Estilo para o título */
+.label-title {
+    -fx-font-size: 20px;
+    -fx-text-fill: #0F3D6E;
+}
+
+/* Estilo para os campos de texto */
+.text-field {
+    -fx-pref-width: 200px;
+    -fx-border-color: black;
+    -fx-border-radius: 10px; /* Adiciona borda arredondada */
+    -fx-background-radius: 10px; /* Adiciona arredondamento ao fundo */
+    -fx-padding: 5px;
+}
+
+/* Estilo para o PasswordField (campos de senha) */
+.text-field, .password-field {
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    /* Verifique se não há algo como `visibility: hidden` ou `display: none` */
+}
+
+/* CSS para tela principal */
+
+hboxBusca {
+    -fx-padding: 10; /* Ajustar o padding do HBox */
+}
+
+label {
+    -fx-font-size: 14px;
+    -fx-padding: 5 0; /* Espaçamento superior e inferior */
+}
+
+.imageView {
+    -fx-fit-width: 200px; /* Largura fixa */
+    -fx-fit-height: 150px; /* Altura fixa */
+    -fx-padding: 10; /* Espaçamento entre imagens */
+}
+
+.grid-pane {
+    -fx-alignment: CENTER_LEFT; /* Alinhar grid à esquerda */
+}
+
+
+
+/* Estilo para o botão */
+.button {
+    -fx-background-color: #0F3D6E;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-font-size: 16px;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+}
+
+/* Centralizar o botão */
+#btn-cadastrar {
+    -fx-alignment: center;
+    -fx-pref-width: 150px;
+    -fx-margin: 10px 0 0 0; /* Margem para espaçar o botão do último campo */
+}
+
+/* Espacamento entre os campos */
+.grid-pane {
+    -fx-hgap: 20px;
+    -fx-vgap: 15px;
+    -fx-padding: 20px;
+}
+
