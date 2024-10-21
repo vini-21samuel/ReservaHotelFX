@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class ListarHoteisDAO {
-    private String url = "jdbc:mysql://localhost:3306/reservahotel"; // Substitua pelo seu banco de dados
+    private String url = "jdbc:mysql://localhost:3306/reservahotel";
     private String usuario = "root"; // Substitua pelo seu usuário
     private String senha = "212003"; // Substitua pela sua senha
 

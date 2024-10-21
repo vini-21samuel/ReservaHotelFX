@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBconnection {
-    private static final String URL = "jdbc:mysql://localhost:3306/reservahotel"; // Substitua pelo nome do seu banco
+    private static final String URL = "jdbc:mysql://localhost:3306/reservahotel";
     private static final String USER = "root";
     private static final String PASSWORD = "212003";
 

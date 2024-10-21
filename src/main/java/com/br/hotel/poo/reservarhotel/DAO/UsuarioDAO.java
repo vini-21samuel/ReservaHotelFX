@@ -20,8 +20,7 @@ public class UsuarioDAO {
             statement.setString(4, usuario.getEmail());
             statement.setString(5, usuario.getSenha());
 
-            statement.executeUpdate(); // Executa a inserção
-
+            statement.executeUpdate();
         } catch (SQLException e) {
             System.err.println("Erro ao cadastrar usuário: " + e.getMessage());
         }
