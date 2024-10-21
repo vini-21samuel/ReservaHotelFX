@@ -1,3 +1,4 @@
+![Captura de tela de 2024-10-20 21-29-17](https://github.com/user-attachments/assets/d4acf8bf-5486-474c-9e33-00b6daff6af8)
 
 # Sistema de Reserva de Hotéis
 
